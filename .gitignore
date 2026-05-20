@@ -1,0 +1,30 @@
+# Vivado temporary files and directories
+*.log
+*.jou
+*.str
+*.os
+.Xil/
+*.dir/
+*.pb
+*.bxml
+
+# Implementation & Synthesis runs directories
+*/.Xil/
+*.runs/
+*.srcs/sources_1/bd/*/hdl/
+*.srcs/sources_1/bd/*/hw_handoff/
+*.srcs/sources_1/bd/*/ip/
+*.srcs/sources_1/bd/*/ipshared/
+*.srcs/sources_1/bd/*/synth/
+*.srcs/sources_1/bd/*/sim/
+*.srcs/sources_1/bd/*/*.bxml
+
+# IP user files and cache
+*.ip_user_files/
+*.cache/
+*.hw/
+*.sim/
+
+# SDK/Vitis generated files (if any)
+.sdk/
+SDK/
